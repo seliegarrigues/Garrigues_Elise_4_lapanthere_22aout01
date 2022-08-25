@@ -90,10 +90,10 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
+
+
+
+
 
 .b-parallax {
     background-attachment: fixed;
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #000000;
 }
 
 .d-bloc .a-btn:hover,
@@ -544,7 +544,7 @@ a[data-lightbox]:hover::before {
     height: 50px;
     margin-left: -25px;
     border-radius: 50%;
-    background: rgba(0, 0, 0, .6);
+    background: rgba(0, 0, 0, 0.6);
     color: #FFF;
     font-weight: 100;
     z-index: 1;
@@ -593,7 +593,7 @@ a[data-lightbox]:hover img {
     top: 20px;
     right: 20px;
     z-index: 20;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, 0.5);
     border: none;
     line-height: 30px;
     padding: 0 9px 5px;
@@ -603,7 +603,7 @@ a[data-lightbox]:hover img {
 .close-lightbox:hover,
 .next-lightbox:hover,
 .prev-lightbox:hover {
-    opacity: 1.0;
+    opacity: 1;
     color: #FFF;
 }
 
@@ -635,7 +635,7 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, 0.5);
     background: none;
 }
 
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #060606!important;
 }
 
 .container {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -686,7 +686,7 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 28px;
     font-family: "Open Sans";
 }
 
@@ -705,12 +705,12 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 26px;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 22px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -734,7 +734,9 @@ h4 {
     margin-bottom: 14px;
     margin-top: 24px;
 }
-
+footer .text-center {
+    color: #000000 !important;
+}
 .white {
     color: #FFFFFF!important;
 }
@@ -753,7 +755,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #212121;
     padding: 40px 40px 40px 40px;
 }
 
@@ -762,13 +764,10 @@ h4 {
     text-decoration: underline!important;
 }
 
-.bgc-white {
-    background-color: #FFFFFF;
-}
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
+
+
+
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
